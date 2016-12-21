@@ -1,4 +1,4 @@
-  "name": "Montastic",
+{ "name": "Montastic",
     "description": "Montastic ticket tracking service",
     "longDescription": "Montastic ticket tracking service monitors websites and sends emails when it is goes down.",
     "version": "1.1",
@@ -9,3 +9,4 @@
     "authorUrl":"https://www.montastic.com",
     "repoUrl": "https://github.com/montastic/montastic-q-app/new/master",
     "version": "1.0"
+}
