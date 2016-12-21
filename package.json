@@ -8,5 +8,25 @@
     "videoUrl": "https://www.youtube.com/watch?v=LUqGTmQz2rY",
     "authorUrl":"https://www.montastic.com",
     "repoUrl": "https://github.com/montastic/montastic-q-app/new/master",
-    "version": "1.0"
+    "version": "1.0",
+ "questions": [
+      {
+        "key": "apiKey",
+        "value": "11",
+        "label": "apiKey",
+        "help": "Your Montastic API key found in your Montastic user profile.",
+        "required": true,
+        "order": 2,
+        "controlType": "textbox"
+      },
+      {
+        "key": "showNotify",
+        "label": "Show notification when there is a problem?",
+        "help": "If checked, a notification will be shown on your devices",
+        "required": true,
+        "order": 3,
+        "controlType": "checkbox"
+      }
+    ],
+    "script": ""
 }
