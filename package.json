@@ -1,33 +1,31 @@
-
-    { "name": "Montastic",
+{ 
+    "name": "Montastic",
     "description": "Montastic ticket tracking service",
     "longDescription": "Montastic ticket tracking service monitors websites and sends emails when it is goes down.",
     "version": "1.1",
     "videoUrl": "https://www.youtube.com/watch?v=LUqGTmQz2rY",
     "iconUrl": "https://montastic.com/images/montastic.png",
-    "imageUrl": "e",
+    "imageUrl": "",
     "authorUrl":"https://www.montastic.com",
     "version": "1.0",
     "questions": [
           {
+            "controlType": "textbox",
             "key": "apiKey",
             "value": "11",
             "label": "apiKey",
-            "help": "Your Montastic API key found in your Montastic user profile.",
+            "help": "Your Montastic API key can be found in your Montastic user profile.",
             "required": true,
-            "order": 2,
-            "controlType": "textbox"
+            "order": 2
           },
           {
+            "controlType": "checkbox",              
             "key": "showNotify",
-            "label": "Show notification when there is a problem?",
+            "label": "Popup notification when a website status changes?",
             "help": "If checked, a notification will be shown on your devices",
             "required": false,
-            "order": 3,
-            "controlType": "checkbox"
+            "order": 3
           }
         ],
     "script": ""
 }
-
-
