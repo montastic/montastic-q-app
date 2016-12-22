@@ -22,7 +22,7 @@
             "key": "showNotify",
             "label": "Show notification when there is a problem?",
             "help": "If checked, a notification will be shown on your devices",
-            "required": true,
+            "required": false,
             "order": 3,
             "controlType": "checkbox"
           }
