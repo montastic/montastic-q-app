@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Montasticxxx",
+    "description": "Montastic ticket tracking service",
+    "longDescription": "Montastic ticket tracking service monitors websites and sends emails when it is goes down.",
+    "version": "1.0",
+    "videoUrl": "https://www.youtube.com/watch?v=LUqGTmQz2rY",
+    "iconUrl": "https://montastic.com/images/montastic.png",
+    "imageUrl": "",
+    "authorUrl": "https://www.montastic.com",
+
+    "questions": [
+      {
+        "key": "apiKey",
+        "value": "11",
+        "label": "apiKey",
+        "help": "Your Montastic API key found in your Montastic user profile.",
+        "required": true,
+        "order": 2,
+        "controlType": "textbox"
+      },
+      {
+        "key": "showNotify",
+        "label": "Show notification when there is a problem?",
+        "help": "If checked, a notification will be shown on your devices",
+        "required": true,
+        "order": 3,
+        "controlType": "checkbox"
+      }
+    ],
+    "script": ""
+  },
+  {
+    "id": 2,
+    "name": "Mojo Helpdesk",
+    "description": "Ticket tracking",
+    "version": "1.1",
+    "questions": [
+      {
+        "key": "apiKey",
+        "value": "11",
+        "label": "apiKey",
+        "help": "Your Mojo Helpdesk API key found in your helpdesk user profile.",
+        "required": true,
+        "order": 2,
+        "controlType": "textbox"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Many Choices App",
+    "description": "An app with lots of config options",
+    "version": "1.1",
+    "questions": [
+      {
+        "key": "apiKey",
+        "value": "11",
+        "label": "apiKey",
+        "help": "Enter your api key.",
+        "required": true,
+        "order": 2,
+        "controlType": "textbox"
+      },
+      {
+        "key": "favoriteColor",
+        "value": "11",
+        "label": "Color you like?",
+        "help": "Enter a color.",
+        "required": true,
+        "order": 3,
+        "controlType": "dropdown",
+        "options": [
+          {
+            "key": "red",
+            "value": "Red"
+          },
+          {
+            "key": "green",
+            "value": "Green"
+          },
+          {
+            "key": "blue",
+            "value": "Blue"
+          }
+        ]
+      },
+      {
+        "key": "checkMe",
+        "label": "Show a checkbox element",
+        "help": "Checkbox help text",
+        "required": true,
+        "value": true,
+        "order": 4,
+        "controlType": "checkbox"
+      }
+    ]
+  }
+]
