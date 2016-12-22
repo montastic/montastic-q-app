@@ -1,4 +1,4 @@
-[
+
     { "name": "Montastic",
     "description": "Montastic ticket tracking service",
     "longDescription": "Montastic ticket tracking service monitors websites and sends emails when it is goes down.",
@@ -30,4 +30,4 @@
     "script": ""
 }
 
-]
+
