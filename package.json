@@ -12,7 +12,7 @@
           {
             "controlType": "textbox",
             "key": "apiKey",
-            "value": "11",
+            "value": "",
             "label": "apiKey",
             "help": "Your Montastic API key can be found in your Montastic user profile.",
             "required": true,
