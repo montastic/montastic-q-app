@@ -18,7 +18,7 @@
             "label": "apiKey",
             "help": "Your Montastic API key can be found in your Montastic user profile.",
             "required": true,
-            "order": 2
+            "order": 1
           },
           {
             "controlType": "checkbox",              
@@ -26,7 +26,7 @@
             "label": "Popup notification when a website status changes?",
             "help": "If checked, a notification will be shown on your devices",
             "required": false,
-            "order": 3
+            "order": 2
           }
         ]
 }
