@@ -1,7 +1,7 @@
 { 
     "name": "Montastic",
-    "shortDescription": "Montastic ticket tracking service",
-    "longDescription": "Montastic ticket tracking service monitors websites and sends emails when it is goes down.",
+    "shortDescription": "Q app for Montastic website monitoring service",
+    "longDescription": "Montastic monitors websites and sends emails when it is goes down.",
     "version": "1.0",    
     "isSingleton": false,
     "videoUrl": "https://www.youtube.com/watch?v=LUqGTmQz2rY",
@@ -21,7 +21,7 @@
             "order": 1
           },
           {
-            "controlType": "checkbox",              
+            "controleType": "checkbox",              
             "key": "showNotify",
             "label": "Popup notification when a website status changes?",
             "help": "If checked, a notification will be shown on your devices",
