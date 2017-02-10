@@ -12,7 +12,7 @@
     "authorUrl": "https://twitter.com/supercobra",
     "authentication": {
         "method": "oauth2",
-        "client_id": "abc",
+        "client_id": "4c482c84f6d7da37d1f5",
         "url_auth": "https://www.montastic.com/oauth/v1/auth",
         "url_token": "https://www.montastic.com/oauth/v1/token",
         "refresh_token": true
