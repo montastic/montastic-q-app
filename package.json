@@ -10,23 +10,11 @@
     "appUrl":"https://www.montastic.com",
     "authorName": "supercobra",
     "authorUrl": "https://twitter.com/supercobra",
-    "questions": [
-          {
-            "controlType": "textbox",
-            "key": "apiKey",
-            "value": "",
-            "label": "apiKey",
-            "help": "Your Montastic API key can be found in your Montastic user profile.",
-            "required": true,
-            "order": 1
-          },
-          {
-            "controleType": "checkbox",              
-            "key": "showNotify",
-            "label": "Popup notification when a website status changes?",
-            "help": "If checked, a notification will be shown on your devices",
-            "required": false,
-            "order": 2
-          }
-        ]
+    "authentication": {
+        "method": "oauth2",
+        "client_id": "abc",
+        "url_auth": "https://www.montastic.com/oauth/v1/auth",
+        "url_token": "https://www.montastic.com/oauth/v1/token",
+        "refresh_token": true
+    }
 }
