@@ -1,7 +1,8 @@
 { 
-    "name": "Montastic",
+    "name": "Q App for Montastic",
+    "officialProduct": "Montastic",
     "shortDescription": "Q app for Montastic website monitoring service",
-    "longDescription": "Montastic monitors websites and sends emails when it is goes down.",
+    "longDescription": "Montastic monitors websites alert you when they is go down.",
     "version": "1.0",    
     "isSingleton": false,
     "videoUrl": "https://www.youtube.com/watch?v=LUqGTmQz2rY",
