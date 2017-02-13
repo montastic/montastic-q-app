@@ -2,7 +2,7 @@
  {
       "name": "Montastic Alarm",
       "shortDescription": "Get a signal when Montastic creates a new alarm.",
-      "longDescription": "Get a signal when Montastic detects one of your website goes down.",
+      "longDescription": "Get a signal on your Das Keyboard 5Q when Montastic detects your website goes down.",
       "version": "1.0",
       "changeLog": "Initial release"
  }
