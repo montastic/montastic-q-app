@@ -4,16 +4,5 @@
       "shortDescription": "Get a signal when Montastic creates a new alarm.",
       "longDescription": "Get a signal when Montastic detects one of your website goes down.",
       "version": "1.0",
-      "changeLog": "Initial release",
-      "questions": [
-        {
-          "controlType": "textbox",
-          "key": "preferedColor",
-          "value": "red",
-          "label": "What is your favorite color",
-          "help": "Just checking your taste.",
-          "required": true,
-          "order": 1
-        }
-      ]
-    }
+      "changeLog": "Initial release"
+ }
