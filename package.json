@@ -17,5 +17,9 @@
         "url_auth": "https://www.montastic.com/oauth/v1/auth",
         "url_token": "https://www.montastic.com/oauth/v1/token",
         "refresh_token": true
-    }
+    },
+	"triggerPackages": [
+	  "trigger-new-alarm",
+	  "trigger-new-alarm"
+	]
 }
