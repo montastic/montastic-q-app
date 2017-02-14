@@ -19,7 +19,6 @@
         "refresh_token": true
     },
 	"triggerPackages": [
-	  "trigger-new-alarm",
 	  "trigger-new-alarm"
 	]
 }
