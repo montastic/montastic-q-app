@@ -18,6 +18,7 @@
         "url_token": "https://www.montastic.com/oauth/v1/token",
         "refresh_token": true
     },
+    "authenticationOkUrl": "https://www.montastic.com/me",
 	"triggerPackages": [
 	  "trigger-new-alarm"
 	]
