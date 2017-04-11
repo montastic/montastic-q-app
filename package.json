@@ -19,7 +19,7 @@
         "refresh_token": true
     },
     "authenticationOkUrl": "https://www.montastic.com/me",
-	"triggerPackages": [
+     "triggerPackages": [
 	  "trigger-new-alarm"
 	]
 }
