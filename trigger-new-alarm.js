@@ -2,7 +2,7 @@
 
 "use strict";
 var fetch = require('node-fetch')
-var url = 'http://www.montastic.com/feeds/quick_status?key=' + {{api_key}};
+var url = 'https://www.montastic.com/feeds/quick_status?key=' + {{api_key}};
 var count = 0;
 fetch(url)
     .then(function (res) {
