@@ -21,6 +21,7 @@
     "minXY": "3,1",
     "idealXY": "10,1"
   },
+  "qScript":"run.js",
   "badges": [
     {
       "url": "https://vscode-python.visualstudio.com/VSCode-Python/_apis/build/status/VSCode-Python-Rolling-CI?branchName=master",
