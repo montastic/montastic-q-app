@@ -46,9 +46,19 @@
       "label": "Your Montastic API Key",
       "help": "Your Montastic API key found in your Montastic user profile.",
       "required": true,
-      "order": 2,
+      "order": 1,
       "controlType": "textbox"
+    },
+    {
+      "key": "is_human",
+      "value": "false",
+      "label": "Are you human?",
+      "help": "Double checking",
+      "required": true,
+      "order": 2,
+      "controlType": "checkbox"
     }
+    
   ],
   "dependencies": {
     "arch": "2.1.0",
